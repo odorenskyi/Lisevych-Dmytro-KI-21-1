@@ -13,7 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="../../prj" />
+					<Add directory="../ModulesLisevych" />
 				</Compiler>
 				<Linker>
 					<Add library="../ModulesLisevych/bin/Debug/libModulesLisevych.a" />
@@ -27,7 +27,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
-					<Add directory="../../prj" />
+					<Add directory="../ModulesLisevych" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -39,7 +39,7 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
-			<Add directory="../../prj" />
+			<Add directory="../ModulesLisevych" />
 		</Compiler>
 		<Linker>
 			<Add library="../ModulesLisevych/bin/Debug/libModulesLisevych.a" />
