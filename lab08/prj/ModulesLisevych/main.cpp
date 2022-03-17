@@ -1,7 +1,11 @@
+#include <iostream>
 #include <cmath>
-double s_calculation(double x, double z)
+#include "ModulesLisevych.h"
+
+using namespace std;
+
+double s_calculation(float x, float z)
 {
-    double S;
-    S = ((1/2)*pow((abs(2*z - pow(x, 2))/sin(x)), 3))/(sqrt(1+abs(cos(x)))+2*3,14);
-    return S;
+    const double PI = 3.14159;
+    return (0.5*pow((abs(2*z - pow(x, 2))/sin(x)), 3))/(sqrt(1+abs(cos(x)))+2*PI);
 }
