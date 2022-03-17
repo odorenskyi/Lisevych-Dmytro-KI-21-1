@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1647512256 source:a:\ki-21-1 univer\bmtp\Лабораторная робота\bmtpgit\lisevych-dmytro-ki-21-1\lab08\prj\testdriver\main.cpp
+	<iostream>
+	<conio.h>
+	<iomanip>
+	<clocale>
+	"ModulesLisevych.h"
+
+1647511114 a:\ki-21-1 univer\bmtp\Лабораторная робота\bmtpgit\lisevych-dmytro-ki-21-1\lab08\prj\moduleslisevych.h
+	<cmath>
+
+1647511676 a:\ki-21-1 univer\bmtp\Лабораторная робота\bmtpgit\lisevych-dmytro-ki-21-1\lab08\prj\moduleslisevych\moduleslisevych.h
+	<cmath>
+
