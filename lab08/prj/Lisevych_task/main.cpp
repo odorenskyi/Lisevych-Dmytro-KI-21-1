@@ -13,15 +13,15 @@ char a = '0', b = '0';
 
 string CopyrightHolder()
 {
-  return "© Лісевич Дмитро Сергійович";
+  return "В© Р›С–СЃРµРІРёС‡ Р”РјРёС‚СЂРѕ РЎРµСЂРіС–Р№РѕРІРёС‡";
 }
 
 void inputNumbers(int X, int Z, int A, int B)
 {
-    cout << "Введіть X: "; cin >> X; x = X;
-    cout << "Введіть Z: "; cin >> Z; z = Z;
-    cout << "Введіть символ(1): "; cin >> A; a = A;
-    cout << "Введіть символ(2): "; cin >> B; b = B;
+    cout << "Р’РІРµРґС–С‚СЊ X: "; cin >> X; x = X;
+    cout << "Р’РІРµРґС–С‚СЊ Z: "; cin >> Z; z = Z;
+    cout << "Р’РІРµРґС–С‚СЊ СЃРёРјРІРѕР»(1): "; cin >> A; a = A;
+    cout << "Р’РІРµРґС–С‚СЊ СЃРёРјРІРѕР»(2): "; cin >> B; b = B;
     cout << endl;
 }
 
@@ -32,19 +32,19 @@ bool logicalExpression(int A, int B)
 
 void decimaHexNumberOuput(int X, int Z)
 {
-    cout << "X в десятковій: " << dec << X << endl
-         << "Z в десятковій: " << dec << Z << endl << endl;
+    cout << "X РІ РґРµСЃСЏС‚РєРѕРІС–Р№: " << dec << X << endl
+         << "Z РІ РґРµСЃСЏС‚РєРѕРІС–Р№: " << dec << Z << endl << endl;
 
-    cout << "X в шістнацятковій: " << hex << X << endl
-         << "Z в шістнацятковій: " << hex << Z << endl << endl;
+    cout << "X РІ С€С–СЃС‚РЅР°С†СЏС‚РєРѕРІС–Р№: " << hex << X << endl
+         << "Z РІ С€С–СЃС‚РЅР°С†СЏС‚РєРѕРІС–Р№: " << hex << Z << endl << endl;
 }
 
 int main()
 {
-    system("chcp 1251");
+    system("chcp 65001 & cls");
     cout << CopyrightHolder() << endl << endl;
     inputNumbers(x, z, a, b);
-    cout << "Результат: " << a << " + 3 <= " << b << "\n" << logicalExpression(a, b) << " (1 - true; 0 - false)"<< endl << endl;
+    cout << "Р РµР·СѓР»СЊС‚Р°С‚: " << a << " + 3 <= " << b << "\n" << logicalExpression(a, b) << " (1 - true; 0 - false)"<< endl << endl;
     decimaHexNumberOuput(x, z);
     cout << "S = " << s_calculation(x, z) << endl;
     system("pause");
