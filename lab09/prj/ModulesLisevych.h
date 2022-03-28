@@ -12,7 +12,9 @@ double s_calculation(float x, float z);
 
 string windSpeed(int wSpeed);
 
-int temperature(double temp[7]);
+int temp_cel(int day1, int day2, int day3, int day4, int day5, int day6, int day7);
+
+int temp_far(float cel);
 
 int bits_number(int number);
 

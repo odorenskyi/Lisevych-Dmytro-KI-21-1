@@ -55,19 +55,22 @@ string windSpeed(unsigned int wSpeed)
     }
 }
 
-int temperature(double temp[7])
+int temp_cel(int day1, int day2, int day3, int day4, int day5, int day6, int day7)
 {
-    float sum, cel, far;
-    for(int i = 0; i < 7; i++){
-        sum += temp[7];
-    }
-    cel = sum / 7;
+    int cel = (day1 + day2 + day3 + day4 + day5 + day6 + day7) / 7;
+    return cel;
+}
+
+int temp_far
+{
+    int far;
     far = 32 + 1.8 * cel;
+    return far;
 }
 
 int bits_number(unsigned int number)
 {
-    bitset<31> b_number{number};
+    bitset<32> b_number{number};
     if (b_number[7]) {
         return 32 - b_number.count();
     }
