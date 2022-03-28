@@ -15,43 +15,43 @@ double s_calculation(float x, float z)
 string windSpeed(unsigned int wSpeed)
 {
     if(wSpeed < 0.3){
-        cout << "Áàë áîôîðòà: 0" << endl;
+        cout << "Ð‘Ð°Ð» Ð±Ð¾Ñ„Ð¾Ñ€Ñ‚Ð°: 0" << endl;
     }
     if(wSpeed >= 0.3 && wSpeed <= 1.5){
-        cout << "Áàë áîôîðòà: 1" << endl;
+        cout << "Ð‘Ð°Ð» Ð±Ð¾Ñ„Ð¾Ñ€Ñ‚Ð°: 1" << endl;
     }
     if(wSpeed >= 1.6 && wSpeed <= 3.4){
-        cout << "Áàë áîôîðòà: 2" << endl;
+        cout << "Ð‘Ð°Ð» Ð±Ð¾Ñ„Ð¾Ñ€Ñ‚Ð°: 2" << endl;
     }
     if(wSpeed >= 3.5 && wSpeed <= 5.4 ){
-        cout << "Áàë áîôîðòà: 3" << endl;
+        cout << "Ð‘Ð°Ð» Ð±Ð¾Ñ„Ð¾Ñ€Ñ‚Ð°: 3" << endl;
     }
     if(wSpeed >= 5.5 && wSpeed <= 7.9){
-        cout << "Áàë áîôîðòà: 4" << endl;
+        cout << "Ð‘Ð°Ð» Ð±Ð¾Ñ„Ð¾Ñ€Ñ‚Ð°: 4" << endl;
     }
     if(wSpeed >= 8 && wSpeed <= 10.7){
-        cout << "Áàë áîôîðòà: 5" << endl;
+        cout << "Ð‘Ð°Ð» Ð±Ð¾Ñ„Ð¾Ñ€Ñ‚Ð°: 5" << endl;
     }
     if(wSpeed >= 10.8 && wSpeed <= 13.8){
-        cout << "Áàë áîôîðòà: 6" << endl;
+        cout << "Ð‘Ð°Ð» Ð±Ð¾Ñ„Ð¾Ñ€Ñ‚Ð°: 6" << endl;
     }
     if(wSpeed >= 13.9 && wSpeed <= 17.1){
-        cout << "Áàë áîôîðòà: 7" << endl;
+        cout << "Ð‘Ð°Ð» Ð±Ð¾Ñ„Ð¾Ñ€Ñ‚Ð°: 7" << endl;
     }
     if(wSpeed >= 17.2 && wSpeed <= 20.7){
-        cout << "Áàë áîôîðòà: 8" << endl;
+        cout << "Ð‘Ð°Ð» Ð±Ð¾Ñ„Ð¾Ñ€Ñ‚Ð°: 8" << endl;
     }
     if(wSpeed >= 20.8 && wSpeed <= 24.4){
-        cout << "Áàë áîôîðòà: 9" << endl;
+        cout << "Ð‘Ð°Ð» Ð±Ð¾Ñ„Ð¾Ñ€Ñ‚Ð°: 9" << endl;
     }
     if(wSpeed >= 24.5 && wSpeed <= 28.4){
-        cout << "Áàë áîôîðòà: 10" << endl;
+        cout << "Ð‘Ð°Ð» Ð±Ð¾Ñ„Ð¾Ñ€Ñ‚Ð°: 10" << endl;
     }
     if(wSpeed >= 28.5 && wSpeed <= 32.6){
-        cout << "Áàë áîôîðòà: 11" << endl;
+        cout << "Ð‘Ð°Ð» Ð±Ð¾Ñ„Ð¾Ñ€Ñ‚Ð°: 11" << endl;
     }
     if(wSpeed >= 32.7){
-        cout << "Áàë áîôîðòà: 12" << endl;
+        cout << "Ð‘Ð°Ð» Ð±Ð¾Ñ„Ð¾Ñ€Ñ‚Ð°: 12" << endl;
     }
 }
 
