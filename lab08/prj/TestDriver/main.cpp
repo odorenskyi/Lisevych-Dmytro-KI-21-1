@@ -21,7 +21,7 @@ int main()
         "X = " << x[i] << "\n"
         "Z = " << z[i] << "\n";
         cout << "Expexted Result: " << Result[i] << endl;
-        cout << "Actual Result: " << s_calculation(x[i], z[i]) - Result[i] << endl;
+        cout << "Actual Result: " << s_calculation(x[i], z[i]) << endl;
         if(abs(s_calculation(x[i], z[i]) - Result[i]) <= delta){
             cout << "Test Case #" << i + 1 << ":" << " PASSED\n" << endl;
         } else {
