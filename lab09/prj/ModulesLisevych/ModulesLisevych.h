@@ -2,9 +2,8 @@
 #define MODULESLISEVYCH_H_INCLUDED
 
 #include <iostream>
-#include <cmath>
 #include <string>
-#include <windows.h>
+#include <cmath>
 
 using namespace std;
 

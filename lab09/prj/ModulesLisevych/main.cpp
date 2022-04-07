@@ -4,6 +4,8 @@
 #include <string>
 #include <bitset>
 
+#include "ModulesLisevych.h"
+
 using namespace std;
 
 double s_calculation(float x, float z)
@@ -12,46 +14,46 @@ double s_calculation(float x, float z)
     return (0.5*pow((abs(2*z - pow(x, 2))/sin(x)), 3))/(sqrt(1+abs(cos(x)))+2*PI);
 }
 
-string windSpeed(unsigned int wSpeed)
+string windSpeed(int wSpeed)
 {
     if(wSpeed < 0.3){
-        cout << "Бал бофорта: 0" << endl;
+        return "Бал Бофорта: 0";
     }
     if(wSpeed >= 0.3 && wSpeed <= 1.5){
-        cout << "Бал бофорта: 1" << endl;
+        return "Бал Бофорта: 1";
     }
     if(wSpeed >= 1.6 && wSpeed <= 3.4){
-        cout << "Бал бофорта: 2" << endl;
+        return "Бал Бофорта: 2";
     }
     if(wSpeed >= 3.5 && wSpeed <= 5.4 ){
-        cout << "Бал бофорта: 3" << endl;
+        return "Бал Бофорта: 3";
     }
     if(wSpeed >= 5.5 && wSpeed <= 7.9){
-        cout << "Бал бофорта: 4" << endl;
+        return "Бал Бофорта: 4";
     }
     if(wSpeed >= 8 && wSpeed <= 10.7){
-        cout << "Бал бофорта: 5" << endl;
+        return "Бал Бофорта: 5";
     }
     if(wSpeed >= 10.8 && wSpeed <= 13.8){
-        cout << "Бал бофорта: 6" << endl;
+        return "Бал Бофорта: 6";
     }
     if(wSpeed >= 13.9 && wSpeed <= 17.1){
-        cout << "Бал бофорта: 7" << endl;
+        return "Бал Бофорта: 7";
     }
     if(wSpeed >= 17.2 && wSpeed <= 20.7){
-        cout << "Бал бофорта: 8" << endl;
+        return "Бал Бофорта: 8";
     }
     if(wSpeed >= 20.8 && wSpeed <= 24.4){
-        cout << "Бал бофорта: 9" << endl;
+        return "Бал Бофорта: 9";
     }
     if(wSpeed >= 24.5 && wSpeed <= 28.4){
-        cout << "Бал бофорта: 10" << endl;
+        return "Бал Бофорта: 10";
     }
     if(wSpeed >= 28.5 && wSpeed <= 32.6){
-        cout << "Бал бофорта: 11" << endl;
+        return "Бал Бофорта: 11";
     }
     if(wSpeed >= 32.7){
-        cout << "Бал бофорта: 12" << endl;
+        return "Бал Бофорта: 12";
     }
 }
 
@@ -61,14 +63,14 @@ int temp_cel(int day1, int day2, int day3, int day4, int day5, int day6, int day
     return cel;
 }
 
-int temp_far
+int temp_far(float cel)
 {
     int far;
     far = 32 + 1.8 * cel;
     return far;
 }
 
-int bits_number(unsigned int number)
+int bits_number(int number)
 {
     bitset<32> b_number{number};
     if (b_number[7]) {
