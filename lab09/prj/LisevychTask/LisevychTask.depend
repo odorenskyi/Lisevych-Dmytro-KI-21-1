@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1649339667 source:a:\ki-21-1 univer\bmtp\laboratory work\bmtpgit\lisevych-dmytro-ki-21-1\lab09\prj\lisevychtask\main.cpp
+	<iostream>
+	<conio.h>
+	"ModulesLisevych.h"
+
+1649311256 a:\ki-21-1 univer\bmtp\laboratory work\bmtpgit\lisevych-dmytro-ki-21-1\lab09\prj\moduleslisevych\moduleslisevych.h
+	<iostream>
+	<string>
+	<cmath>
+
