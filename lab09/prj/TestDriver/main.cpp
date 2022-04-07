@@ -60,8 +60,8 @@ int main()
     }
 
     //Task 9.3
-    int number [5] = {34, 52085, 798534, 4258050, 5335662};
-    int numberResult [5] = {2, 10, 10, 8, 12};
+    int number [5] = {50, 500, 5000, 50000, 70000};
+    int numberResult [5] = {3, 26, 27, 6, 6};
 
     cout << "Test task 9.3" << endl;
     for(int i = 0; i < 5; i++){
