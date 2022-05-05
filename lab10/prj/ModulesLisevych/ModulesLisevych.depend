@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1649312581 source:a:\ki-21-1 univer\bmtp\laboratory work\bmtpgit\lisevych-dmytro-ki-21-1\lab09\prj\moduleslisevych\main.cpp
+	<iostream>
+	<clocale>
+	<cmath>
+	<string>
+	<bitset>
+	"ModulesLisevych.h"
+
+1649311256 a:\ki-21-1 univer\bmtp\laboratory work\bmtpgit\lisevych-dmytro-ki-21-1\lab09\prj\moduleslisevych\moduleslisevych.h
+	<iostream>
+	<string>
+	<cmath>
+
+1651565314 source:a:\ki-21-1 univer\bmtp\laboratory work\bmtpgit\lisevych-dmytro-ki-21-1\lab10\prj\moduleslisevych\main.cpp
+	<iostream>
+	<clocale>
+	<cmath>
+	<cstring>
+	<bitset>
+	<fstream>
+	<ctime>
+	<ios>
+	<sstream>
+	"ModulesLisevych.h"
+
+1651565418 a:\ki-21-1 univer\bmtp\laboratory work\bmtpgit\lisevych-dmytro-ki-21-1\lab10\prj\moduleslisevych\moduleslisevych.h
+	<iostream>
+	<string>
+	<cmath>
+
